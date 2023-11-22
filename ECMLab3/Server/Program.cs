@@ -50,7 +50,7 @@ class PipeServer
                 while (!token.IsCancellationRequested)
                 {
                     int _n, _m, _priority;
-                    Console.Write("Enter a, b, priority: ");
+                    Console.Write("Enter a,o b,a priority: ");
                     string? res = Console.ReadLine();
                     if (res == null)
                     {
