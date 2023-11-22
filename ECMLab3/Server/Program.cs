@@ -16,7 +16,7 @@ class PipeServer
     private static Mutex mutex = new Mutex();
     private static Mutex mutFile = new Mutex();
     private static int count = 0;
-    private static string path = "C:\\Users\\gavri\\source\\repos\\Client\\Client\\bin\\Debug\\net7.0\\Client.exe";
+    private static string path = "\"C:\\Users\\stafe\\source\\repos\\ECMLab3\\ECMLab3\\Client\\bin\\Debug\\net7.0\\Client.exe\"";
 
     private static async Task Main()
     {
